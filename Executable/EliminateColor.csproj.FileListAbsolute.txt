@@ -1,0 +1,10 @@
+C:\Users\asus\Documents\Visual Studio 2017\Projects\EliminateColor\EliminateColor\bin\Release\EliminateColor.exe.config
+C:\Users\asus\Documents\Visual Studio 2017\Projects\EliminateColor\EliminateColor\bin\Release\EliminateColor.exe
+C:\Users\asus\Documents\Visual Studio 2017\Projects\EliminateColor\EliminateColor\bin\Release\EliminateColor.pdb
+C:\Users\asus\Documents\Visual Studio 2017\Projects\EliminateColor\EliminateColor\obj\Release\EliminateColor.csprojAssemblyReference.cache
+C:\Users\asus\Documents\Visual Studio 2017\Projects\EliminateColor\EliminateColor\obj\Release\EliminateColor.Form1.resources
+C:\Users\asus\Documents\Visual Studio 2017\Projects\EliminateColor\EliminateColor\obj\Release\EliminateColor.Properties.Resources.resources
+C:\Users\asus\Documents\Visual Studio 2017\Projects\EliminateColor\EliminateColor\obj\Release\EliminateColor.csproj.GenerateResource.cache
+C:\Users\asus\Documents\Visual Studio 2017\Projects\EliminateColor\EliminateColor\obj\Release\EliminateColor.csproj.CoreCompileInputs.cache
+C:\Users\asus\Documents\Visual Studio 2017\Projects\EliminateColor\EliminateColor\obj\Release\EliminateColor.exe
+C:\Users\asus\Documents\Visual Studio 2017\Projects\EliminateColor\EliminateColor\obj\Release\EliminateColor.pdb
