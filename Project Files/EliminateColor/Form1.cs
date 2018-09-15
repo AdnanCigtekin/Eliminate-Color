@@ -57,7 +57,7 @@ namespace EliminateColor
                 newoutputPath = outputPath +"/";                
                 string newFileName = newoutputPath + Tempfile;
 
-                myBmp.Save(newFileName, ImageFormat.Png);
+                output.Save(newFileName, ImageFormat.Png);
             }
 
             directories = Directory.GetDirectories(path);
@@ -70,8 +70,10 @@ namespace EliminateColor
                     folderName += directory[i];
                 }
                 folderName = Reverse(folderName);
-                System.IO.Directory.CreateDirectory(outputPath + folderName);
-                ProcessFiles(directory,true, outputPath + folderName);
+                Console.WriteLine(outputPath);
+                System.IO.Directory.CreateDirectory(outputPath +'/' +folderName);
+                Console.WriteLine(outputPath + '/'+ folderName);
+                ProcessFiles(directory,true, outputPath + '/'+folderName);
             }
         }
 
@@ -92,6 +94,7 @@ namespace EliminateColor
             }
 
             ProcessFiles(path1,false, GlobalOutputPath);
+            MessageBox.Show("Process has finished!");
             Console.WriteLine("FINISHED");
         }
 
@@ -107,6 +110,7 @@ namespace EliminateColor
                 string sr = folderBrowserDialog1.SelectedPath.ToString();
                 
                 textBox1.Text = sr;
+                GlobalOutputPath = sr;
                 //MessageBox.Show("Output has been entered by the user");
             }
         }
